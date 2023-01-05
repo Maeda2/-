@@ -60,11 +60,7 @@
         
         <br>
         
-        <input type="text" name="pass" placeholder=<?php
-        if(!empty($name)){
-            echo "パスワード変更できません";
-        }else{ "パスワード"; }
-        ?>>
+        <input type="text" name="pass" placeholder="パスワード">
         
         <input type="hidden" name="hide" value=<?php
         if(!empty($name)){
